@@ -4,11 +4,12 @@ from collections import deque
 # Read data from file 'filename.csv'
 # (in the same directory that your python process is based)
 # Control delimiters, rows, column names with read_csv (see later)
-data = pd.read_csv("2d_array.csv")
+data = pd.read_csv("output2.csv")
 
 data.drop(data.columns[0], axis=1, inplace=True)
+
 # Preview the first 5 lines of the loaded data
-numpy_matrix = data.as_matrix()
+numpy_matrix = data.to_numpy()
 
 
 ROW = rows = len(numpy_matrix)
@@ -48,7 +49,8 @@ colNum = [0, -1, 1, 0,-1, 1, 1, -1]
 def BFS(mat, src: Point, dest: Point):
     # check source and destination cell
     # of the matrix have value 1
-    if mat[src.x][src.y] != 255 or mat[dest.x][dest.y] != 255:
+    if int(mat[src.x][src.y]) != 0 or int(mat[dest.x][dest.y]) != 0:
+        
         return -1
 
     visited = [[False for i in range(COL)] for j in range(ROW)]
@@ -83,7 +85,7 @@ def BFS(mat, src: Point, dest: Point):
 
             # if adjacent cell is valid, has path
             # and not visited yet, enqueue it.
-            if (isValid(row, col) and mat[row][col] == 255 and not visited[row][col]):
+            if (isValid(row, col) and int(mat[row][col]) == 0 and not visited[row][col]):
                 visited[row][col] = True
                 if catch_index_error(curr.dist) is None:
                     mylist.insert(curr.dist,Point(row,col))
@@ -104,10 +106,11 @@ def catch_index_error(index):
 
 
 mylist = []
-source = Point(0, 1)
-dest = Point(ROW-1, COL-1)
+source = Point(22, 0)
+dest = Point(130, 131)
 dist = BFS(numpy_matrix, source, dest)
-print("Shortest Path is", len(mylist))
+#print (dist)
+#print("Shortest Path is", len(mylist))
 for x1 in range(len(mylist)):
     print("Coordinates %s is %s" % (mylist[x1].x, mylist[x1].y))
 
@@ -116,3 +119,18 @@ if dist != -1:
 else:
     print("Shortest Path doesn't exist")
 
+#with open("outfile", "w") as outfile:
+ #   outfile.write("\n".join(itemlist))
+listx = []
+listy = []
+for i in range(len(mylist)):
+     listx.append(mylist[i].x)
+     listy.append(mylist[i].y)
+
+with open('listx.txt', 'w') as f:
+    for item in listx:
+        f.write("%s\n" % item)
+
+with open('listy.txt', 'w') as f:
+    for item in listy:
+        f.write("%s\n" % item)

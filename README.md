@@ -1,4 +1,6 @@
-![](https://github.com/ailjia/SeaTrip/blob/master/logo.png?raw=true){:height="50%" width="50%"}
+
+<img src="https://github.com/ailjia/SeaTrip/blob/master/logo.png?raw=true"
+	width="150" height="100" />
 
 
 # Sea trip - Your Guide On The Water

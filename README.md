@@ -1,6 +1,6 @@
 
 <img src="https://github.com/ailjia/SeaTrip/blob/master/logo.png?raw=true"
-	width="150" height="100" />
+	width="100" height="100" />
 
 
 # Sea trip - Your Guide On The Water

@@ -11,6 +11,9 @@ SeaTrip lets you find your ideal route at sea, in a user friendly, efficient and
 - Marine habitat mapping
 - Shallow water display
 
+# Demo developed within AthensHack phase
+https://drive.google.com/file/d/12sT1E68u98M0qRgdT5kzdrIC-5R95wcA/view?usp=sharing
+
 # Future Features
 - Tracks: Record your travel and snap geotagged photos.
 - Routes: Create and edit routes. Then see length, time and fuel consumption.

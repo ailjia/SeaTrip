@@ -1,4 +1,4 @@
-![]("https://66.media.tumblr.com/aa61d2f788470a1cdbc9b087571c0d5a/63e10e41f28b1178-9c/s640x960/6c2f6c6b82d3597dbca0cc53fc17fbb5aeabd687.png")
+![]("https://github.com/ailjia/SeaTrip/blob/master/logo.png?raw=true")
 
 
 # Sea trip - Your Guide On The Water

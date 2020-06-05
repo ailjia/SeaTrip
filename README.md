@@ -21,9 +21,9 @@ Photos and VideosGeotagged photos and videos appear on the map.
 Share Location: With detailed info and coordinates
 
 # Team
-Michel Farach
-Mahabir Gupta
-Giannis Giannopoulos
-Aileen Jiang
-Dionysia Rigatou
+Michel Farach,
+Mahabir Gupta,
+Giannis Giannopoulos,
+Aileen Jiang,
+Dionysia Rigatou,
 Anastasia Vassiliou

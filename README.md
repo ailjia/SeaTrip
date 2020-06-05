@@ -1,3 +1,6 @@
+![]("https://66.media.tumblr.com/aa61d2f788470a1cdbc9b087571c0d5a/63e10e41f28b1178-9c/s640x960/6c2f6c6b82d3597dbca0cc53fc17fbb5aeabd687.png")
+
+
 # Sea trip - Your Guide On The Water
 SeaTrip is a marine navigation application currently aimed towards serving the needs of small boat owners. 
 SeaTrip lets you find your ideal route at sea, in a user friendly, efficient and safe way. It utilizes free satelite imagery data to map shallow water areas, gather information about weather patterns affecting your route and offers a range of features such as water quality information, marine habitat tracking for eco friendly anchoring locations and more. All you have to just enter the cordinates and enjoy seamless sea journey.
